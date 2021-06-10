@@ -6,16 +6,17 @@ body {
 .container {
 /*  margin-top: 500px; */
   width: 100%;
-  background-color: black;
+  background-color: white;
+  vertical-align: baseline;
 }
 .container h1 {
   text-align: center;
-  color: red;
+  color: black;
   margin-top: 0px;
 }
 .container p {
   text-align: center;
-  color: white;
+  color: black;
   margin-left: 400px;
   margin-right: 400px;
 }
@@ -42,13 +43,19 @@ body {
 .projects{
   display: flex;
   flex-wrap: wrap;
-  border: 7px solid white;
-  background-color: black;
+  border: 7px solid black;
+  background-color: white;
   border-radius: 20px 3px 20px 10px;
   width: 200px;
   height: 200px;
   padding: 5px;
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.projects:hover {
+  background-color: black;
 }
 .iframe {
   display: flex;
@@ -61,5 +68,5 @@ iframe {
   height: 500px;
 }
 .body2 {
-  background-color: black;
+  background-color: white;
 }
